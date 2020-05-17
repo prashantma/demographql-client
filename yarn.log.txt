@@ -1,0 +1,238 @@
+$ yarn add apollo-client apollo-cache-inmemory apollo-link-http apollo-link apollo-link-state apollo-l
+ink-error graphql-tag --save
+yarn add v1.22.4
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@2.1.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.12: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > react-hot-loader@4.12.20" has unmet peer dependency "@types/react@^15.0.0 || ^16.0.0".
+warning "@neutrinojs/jest > eslint-plugin-jest > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev
+|| >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >=
+3.7.0-beta".
+warning " > apollo-link@1.2.14" has unmet peer dependency "graphql@^0.11.3 || ^0.12.3 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-client > apollo-cache@1.3.4" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-client > apollo-utilities@1.3.3" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0
+|| ^0.13.0 || ^14.0.0".
+warning "apollo-link-http > apollo-link-http-common@0.2.16" has unmet peer dependency "graphql@^0.11.0
+|| ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-link-state > graphql-anywhere@4.2.6" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > apollo-link@1.2.14" has unmet peer dependency "graphql@^0.11.3 || ^0.12.3 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning " > apollo-client@2.6.8" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > apollo-cache-inmemory@1.6.5" has unmet peer dependency "graphql@0.11.7 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > apollo-link-http@1.5.17" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning " > graphql-tag@2.10.3" has unmet peer dependency "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 13 new dependencies.
+info Direct dependencies
+├─ apollo-cache-inmemory@1.6.5
+├─ apollo-client@2.6.8
+├─ apollo-link-error@1.1.13
+├─ apollo-link-http@1.5.17
+├─ apollo-link-state@0.4.2
+└─ graphql-tag@2.10.3
+info All dependencies
+├─ @types/zen-observable@0.8.0
+├─ @wry/context@0.4.4
+├─ @wry/equality@0.1.11
+├─ apollo-cache-inmemory@1.6.5
+├─ apollo-cache@1.3.4
+├─ apollo-client@2.6.8
+├─ apollo-link-error@1.1.13
+├─ apollo-link-http@1.5.17
+├─ apollo-link-state@0.4.2
+├─ graphql-anywhere@4.2.6
+├─ graphql-tag@2.10.3
+├─ optimism@0.10.3
+└─ symbol-observable@1.2.0
+Done in 49.46s.
+
+Administrator@PACIFIC MINGW64 /e/Prashant/node/apollo/clients/graphql-todo-client
+$ yarn add eslint-plugin-prettier eslint-config-prettier
+yarn add v1.22.4
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@2.1.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.12: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > apollo-cache-inmemory@1.6.5" has unmet peer dependency "graphql@0.11.7 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-cache@1.3.4" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-utilities@1.3.3" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 ||
+^0.13.0 || ^14.0.0".
+warning " > apollo-client@2.6.8" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > apollo-link@1.2.14" has unmet peer dependency "graphql@^0.11.3 || ^0.12.3 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-link-error > apollo-link-http-common@0.2.16" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning " > apollo-link-http@1.5.17" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-link-state > graphql-anywhere@4.2.6" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > graphql-tag@2.10.3" has unmet peer dependency "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > react-hot-loader@4.12.20" has unmet peer dependency "@types/react@^15.0.0 || ^16.0.0".
+warning "@neutrinojs/jest > eslint-plugin-jest > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >=
+3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning " > eslint-plugin-prettier@3.1.3" has unmet peer dependency "prettier@>= 1.13.0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 5 new dependencies.
+info Direct dependencies
+├─ eslint-config-prettier@6.11.0
+└─ eslint-plugin-prettier@3.1.3
+info All dependencies
+├─ eslint-config-prettier@6.11.0
+├─ eslint-plugin-prettier@3.1.3
+├─ fast-diff@1.2.0
+├─ get-stdin@6.0.0
+└─ prettier-linter-helpers@1.0.0
+Done in 17.39s.
+
+Administrator@PACIFIC MINGW64 /e/Prashant/node/apollo/clients/graphql-todo-client
+$ yarn add prettier
+yarn add v1.22.4
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@2.1.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.12: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > apollo-cache-inmemory@1.6.5" has unmet peer dependency "graphql@0.11.7 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-cache@1.3.4" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-utilities@1.3.3" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 ||
+^0.13.0 || ^14.0.0".
+warning " > apollo-client@2.6.8" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > apollo-link@1.2.14" has unmet peer dependency "graphql@^0.11.3 || ^0.12.3 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-link-error > apollo-link-http-common@0.2.16" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning " > apollo-link-http@1.5.17" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-link-state > graphql-anywhere@4.2.6" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > graphql-tag@2.10.3" has unmet peer dependency "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > react-hot-loader@4.12.20" has unmet peer dependency "@types/react@^15.0.0 || ^16.0.0".
+warning "@neutrinojs/jest > eslint-plugin-jest > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >=
+3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ prettier@2.0.5
+info All dependencies
+└─ prettier@2.0.5
+Done in 26.78s.
+
+Administrator@PACIFIC MINGW64 /e/Prashant/node/apollo/clients/graphql-todo-client
+$ yarn add @apollo/react-hooks
+yarn add v1.22.4
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@2.1.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.12: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > apollo-cache-inmemory@1.6.5" has unmet peer dependency "graphql@0.11.7 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-cache@1.3.4" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-utilities@1.3.3" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 ||
+^0.13.0 || ^14.0.0".
+warning " > apollo-client@2.6.8" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > apollo-link@1.2.14" has unmet peer dependency "graphql@^0.11.3 || ^0.12.3 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-link-error > apollo-link-http-common@0.2.16" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning " > apollo-link-http@1.5.17" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0".
+warning "apollo-link-state > graphql-anywhere@4.2.6" has unmet peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > graphql-tag@2.10.3" has unmet peer dependency "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > react-hot-loader@4.12.20" has unmet peer dependency "@types/react@^15.0.0 || ^16.0.0".
+warning "@neutrinojs/jest > eslint-plugin-jest > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >=
+3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning "@apollo/react-hooks > @apollo/react-common@3.1.4" has unmet peer dependency "@types/react@^16.8.0".
+warning "@apollo/react-hooks > @apollo/react-common@3.1.4" has unmet peer dependency "apollo-utilities@^1.3.2".
+warning "@apollo/react-hooks > @apollo/react-common@3.1.4" has unmet peer dependency "graphql@^14.3.1".
+warning " > @apollo/react-hooks@3.1.5" has unmet peer dependency "@types/react@^16.8.0".
+warning " > @apollo/react-hooks@3.1.5" has unmet peer dependency "graphql@^14.3.1".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 2 new dependencies.
+info Direct dependencies
+└─ @apollo/react-hooks@3.1.5
+info All dependencies
+├─ @apollo/react-common@3.1.4
+└─ @apollo/react-hooks@3.1.5
+Done in 18.16s.
+
+$ yarn add @material-ui/core
+yarn add v1.22.4
+[1/4] Resolving packages...
+warning @material-ui/core > popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+[2/4] Fetching packages...
+info fsevents@2.1.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.12: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.12" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > @apollo/react-hooks@3.1.5" has unmet peer dependency "@types/react@^16.8.0".
+warning " > @apollo/react-hooks@3.1.5" has incorrect peer dependency "graphql@^14.3.1".
+warning "@apollo/react-hooks > @apollo/react-common@3.1.4" has unmet peer dependency "@types/react@^16.8.0".
+warning "@apollo/react-hooks > @apollo/react-common@3.1.4" has unmet peer dependency "apollo-utilities@^1.3.2".
+warning "@apollo/react-hooks > @apollo/react-common@3.1.4" has incorrect peer dependency "graphql@^14.3.1".
+warning " > apollo-cache-inmemory@1.6.5" has incorrect peer dependency "graphql@0.11.7 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-cache@1.3.4" has incorrect peer dependency "graphql@^0.11.0 || ^0.12.0 ||
+^0.13.0 || ^14.0.0".
+warning "apollo-cache-inmemory > apollo-utilities@1.3.3" has incorrect peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".
+warning " > apollo-client@2.6.8" has incorrect peer dependency "graphql@^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0".warning "apollo-link-state > graphql-anywhere@4.2.6" has incorrect peer dependency "graphql@^0.11.0 || ^0.12.0 ||
+^0.13.0 || ^14.0.0".
+warning " > graphql-tag@2.10.3" has incorrect peer dependency "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 ||
+^0.13.0 || ^14.0.0".
+warning " > react-hot-loader@4.12.20" has unmet peer dependency "@types/react@^15.0.0 || ^16.0.0".
+warning "@neutrinojs/jest > eslint-plugin-jest > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >=
+3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 22 new dependencies.
+info Direct dependencies
+└─ @material-ui/core@4.9.12
+info All dependencies
+├─ @emotion/hash@0.8.0
+├─ @material-ui/core@4.9.12
+├─ @material-ui/react-transition-group@4.3.0
+├─ @material-ui/styles@4.9.10
+├─ @material-ui/system@4.9.10
+├─ @types/prop-types@15.7.3
+├─ @types/react-transition-group@4.2.4
+├─ @types/react@16.9.34
+├─ clsx@1.1.0
+├─ css-vendor@2.0.8
+├─ csstype@2.6.10
+├─ hyphenate-style-name@1.0.3
+├─ is-in-browser@1.1.3
+├─ jss-plugin-camel-case@10.1.1
+├─ jss-plugin-default-unit@10.1.1
+├─ jss-plugin-global@10.1.1
+├─ jss-plugin-nested@10.1.1
+├─ jss-plugin-props-sort@10.1.1
+├─ jss-plugin-rule-value-function@10.1.1
+├─ jss-plugin-vendor-prefixer@10.1.1
+├─ popper.js@1.16.1
+└─ react-transition-group@4.3.0
+Done in 203.23s.
+
+PS /home/prashant/demographql-client/build> az webapp up --resource-group Default-Web-CentralUS --location centralus --plan Default1 --name demographql-sevenseasteam-client --html
+webapp demographql-sevenseasteam-client doesn't exist
+Creating webapp 'demographql-sevenseasteam-client' ...
+Configuring default logging for the app, if not already enabled
+Creating zip with contents of dir /home/prashant/demographql-client/build ...
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+You can launch the app at http://demographql-sevenseasteam-client.azurewebsites.net
+{
+  "URL": "http://demographql-sevenseasteam-client.azurewebsites.net",
+  "appserviceplan": "Default1",
+  "location": "centralus",
+  "name": "demographql-sevenseasteam-client",
+  "os": "Windows",
+  "resourcegroup": "Default-Web-CentralUS",
+  "runtime_version": "-",
+  "runtime_version_detected": "-",
+  "sku": "FREE",
+  "src_path": "//home//prashant//demographql-client//build"
+}
+PS /home/prashant/demographql-client/build>
